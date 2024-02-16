@@ -22,28 +22,6 @@ const Project = () => {
       <div data-aos="fade-up" data-aos-duration="2000" className="project-box">
         <section className="project">
           <div className="image">
-            <Image src={Project6} alt="Project 06" />
-          </div>
-          <div className="pdetails">
-            <span>
-              Built on the MERN stack, our platform enables users to book
-              appointments and leave reviews for doctors, while doctors
-              efficiently manage their schedules. Elevate healthcare
-              interactions effortlessly.
-            </span>
-            <h2>Medicare</h2>
-            <Link
-              href="https://ecommerce-website-by-suneel.netlify.app/"
-              className="flex"
-              target="_blank"
-            >
-              <HiEye />
-            </Link>
-          </div>
-        </section>
-
-        <section className="project">
-          <div className="image">
             <Image src={Project4} alt="Project 04" />
           </div>
           <div className="pdetails">
@@ -66,6 +44,24 @@ const Project = () => {
 
         <section className="project">
           <div className="image">
+            <Image src={Project6} alt="Project 06" />
+          </div>
+          <div className="pdetails">
+            <span>
+              Built on the MERN stack, our platform enables users to book
+              appointments and leave reviews for doctors, while doctors
+              efficiently manage their schedules. Elevate healthcare
+              interactions effortlessly.
+            </span>
+            <h2>Medicare</h2>
+            <Link href="" className="flex" target="_blank">
+              <HiEye />
+            </Link>
+          </div>
+        </section>
+
+        <section className="project">
+          <div className="image">
             <Image src={Project5} alt="Project 05" />
           </div>
           <div className="pdetails">
@@ -76,11 +72,7 @@ const Project = () => {
               management, all with the power of the MERN stack.
             </span>
             <h2>Trips Travel</h2>
-            <Link
-              href="https://netflix-website-landing-page.netlify.app/"
-              className="flex"
-              target="_blank"
-            >
+            <Link href="" className="flex" target="_blank">
               <HiEye />
             </Link>
           </div>
@@ -98,7 +90,7 @@ const Project = () => {
               and plan your perfect getaway—all with intuitive design and smooth
               navigation, powered by React and SASS.
             </span>
-            <h2>Travel & Stay Website</h2>
+            <h2>RentUp</h2>
             <Link
               href="https://trip-website-lemon.vercel.app/"
               className="flex "
@@ -121,7 +113,7 @@ const Project = () => {
               hotel stays effortlessly, all thanks to our intuitive interface
               and modern design, built with React and pure CSS.
             </span>
-            <h2>Hotal Rent-Up Website</h2>
+            <h2>Dot</h2>
             <Link
               href="https://rent-up-website-react-js.vercel.app/"
               className="flex"
@@ -145,7 +137,7 @@ const Project = () => {
               Explore our user-friendly interface and streamline your dining
               experience with just a few clicks.
             </span>
-            <h2>Food Order Website</h2>
+            <h2>Food</h2>
             <Link
               href="https://food-website-suneeldeveloper.netlify.app/"
               className="flex"
