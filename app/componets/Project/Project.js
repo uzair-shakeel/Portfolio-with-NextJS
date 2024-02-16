@@ -54,7 +54,11 @@ const Project = () => {
               interactions effortlessly.
             </span>
             <h2>Medicare</h2>
-            <Link href="" className="flex" target="_blank">
+            <Link
+              href="https://doctor-appointment-ten.vercel.app/"
+              className="flex"
+              target="_blank"
+            >
               <HiEye />
             </Link>
           </div>
@@ -72,7 +76,11 @@ const Project = () => {
               management, all with the power of the MERN stack.
             </span>
             <h2>Trips Travel</h2>
-            <Link href="" className="flex" target="_blank">
+            <Link
+              href="https://trips-travel.vercel.app/home"
+              className="flex"
+              target="_blank"
+            >
               <HiEye />
             </Link>
           </div>
