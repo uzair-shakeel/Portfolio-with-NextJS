@@ -17,7 +17,7 @@
   transition: 0.3s ease;
 }
 .project .image {
-  height: 200px;
+  height: 130px;
   width: 100%;
   overflow: hidden;
 }
@@ -52,37 +52,34 @@
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  padding: .6rem;
+  padding: 0.6rem;
   color: var(--text);
-  transition: .3s;
+  transition: 0.3s;
 }
 .pdetails a svg:hover {
   border: 1px solid var(--primary);
   color: var(--white);
-
 }
 
-
-
-  @media screen and (max-width: 868px){
-    .project-box {
-        grid-template-columns: repeat(2, 1fr);
-      }
+@media screen and (max-width: 868px) {
+  .project-box {
+    grid-template-columns: repeat(2, 1fr);
   }
-  @media screen and (max-width: 568px){
-    .project-box {
-        grid-template-columns: repeat(1, 1fr);
-      }
-      .pdetails span {
-        font-size: .8rem;
-      }
-      .pdetails h2 {
-        font-size: 1.2rem;
-      }
-      .pdetails a {
-        font-size: .8rem;
-      }
-      .pdetails svg {
-        font-size: 1rem;
-      }
+}
+@media screen and (max-width: 568px) {
+  .project-box {
+    grid-template-columns: repeat(1, 1fr);
   }
+  .pdetails span {
+    font-size: 0.8rem;
+  }
+  .pdetails h2 {
+    font-size: 1.2rem;
+  }
+  .pdetails a {
+    font-size: 0.8rem;
+  }
+  .pdetails svg {
+    font-size: 1rem;
+  }
+}

@@ -3,7 +3,7 @@ import "./Project.css";
 import Project1 from "../../assets/project1.webp";
 import Project2 from "../../assets/project2.webp";
 import Project3 from "../../assets/project3.webp";
-import Project4 from "../../assets/project4.webp";
+import Project4 from "../../assets/Food-Villa.png";
 import Project5 from "../../assets/project5.webp";
 import Project6 from "../../assets/project6.webp";
 import Image from "next/image";
@@ -42,10 +42,10 @@ const Project = () => {
             <Image src={Project4} alt="Project 04" />
           </div>
           <div className="pdetails">
-            <span>REACT Js / CSS3 / API</span>
-            <h2>Multipage Saylani Website</h2>
+            <span>REACT JS, Tailwind CSS, Node JS, Express JS & MongoDB</span>
+            <h2>Food Villa</h2>
             <Link
-              href="https://saylani-welfare-website-suneel.vercel.app/"
+              href="https://food-villa-five.vercel.app/"
               className="flex "
               target="_blank"
             >
