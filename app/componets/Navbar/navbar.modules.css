@@ -21,6 +21,7 @@
   color: var(--primary);
 }
 .navlist {
+  display: none;
   gap: 3rem;
 }
 .navlist a {
@@ -51,59 +52,58 @@
   display: none;
 }
 
-
 @media screen and (max-width: 1024px) {
-  .navlist{
+  .navlist {
     gap: 1rem;
   }
 }
 @media screen and (max-width: 768px) {
-    .nav{
-        position: absolute;
-        top: 0;
-        left: -500%;
-        padding: 2rem;
-        background-color: var(--primary);
-        width: 100%;
-        height: max-content;
-        flex-direction: column;
-        transition: 0.5s ease;
-        z-index: 1001;
-    }
-    .nav .navlist{
-        display: flex;
-        flex-direction: column;
-        gap: 3rem;
-        text-align: start;
-    }
-    .nav .navlist a{
-        color: var(--white);
-    }
-    .closeNavbar {
-        display: flex;
-        position: absolute;
-        top: 10px;
-        right: 10px;
-      }
-      .icon {
-        display: flex;
-        margin-bottom: .2rem;
-      }
-      .activeNavbar {
-        left: 0;
-      }
+  .nav {
+    position: absolute;
+    top: 0;
+    left: -500%;
+    padding: 2rem;
+    background-color: var(--primary);
+    width: 100%;
+    height: max-content;
+    flex-direction: column;
+    transition: 0.5s ease;
+    z-index: 1001;
+  }
+  .nav .navlist {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: start;
+  }
+  .nav .navlist a {
+    color: var(--white);
+  }
+  .closeNavbar {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .icon {
+    display: flex;
+    margin-bottom: 0.2rem;
+  }
+  .activeNavbar {
+    left: 0;
+  }
 }
 @media screen and (max-width: 468px) {
-    .navContact{
-       gap: .7rem;
-    }
-    .navContact a svg{
-        width: 25px;
-    }
-    .logo svg{
-        width: 25px;
-    }
-    .logo h2{
-        font-size: 16px;
-    }
+  .navContact {
+    gap: 0.7rem;
+  }
+  .navContact a svg {
+    width: 25px;
+  }
+  .logo svg {
+    width: 25px;
+  }
+  .logo h2 {
+    font-size: 16px;
+  }
 }

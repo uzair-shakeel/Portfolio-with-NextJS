@@ -37,7 +37,7 @@ const Navbar = () => {
         </h2>
       </Link>
 
-      {/* <div className={active}>
+      <div className={active}>
         <div className="navlist flex">
           <Link href="#project">Project</Link>
           <Link href="#about">About</Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
             <AiFillCloseCircle className="icon" />
           </div>
         </div>
-      </div> */}
+      </div>
       <div className="navContact flex">
         <Link href="https://github.com/uzair-shakeel" target="_blank">
           <svg
