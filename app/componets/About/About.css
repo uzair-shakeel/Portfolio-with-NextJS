@@ -8,24 +8,24 @@
   gap: 2rem;
 }
 
-.aboutBox .box h4{
-    color: var(--white);
-    font-size: 2rem;
-    padding: .5rem 0;
+.aboutBox .box h4 {
+  color: var(--white);
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
 }
-.aboutBox .box p{
-    color: var(--text);
-    font-size: 1rem;
+.aboutBox .box p {
+  color: var(--text);
+  font-size: 01rem;
 }
 
-@media screen and (max-width: 400px){
-    .aboutBox {
-        gap: .5rem;
-      }
-    .aboutBox .box h4{
-        font-size: 1.5rem;
-    }
-    .aboutBox .box p{
-        font-size: .8rem;
-    }
+@media screen and (max-width: 400px) {
+  .aboutBox {
+    gap: 0.5rem;
+  }
+  .aboutBox .box h4 {
+    font-size: 1.5rem;
+  }
+  .aboutBox .box p {
+    font-size: 0.8rem;
+  }
 }

@@ -7,7 +7,7 @@
 }
 .heroContainer .heroHeading {
   font-weight: 800;
-  font-size: 65px;
+  font-size: 55px;
   line-height: 72px;
   width: max-content;
   max-width: 100%;
@@ -15,10 +15,10 @@
 }
 .heroContainer .heroDetails {
   max-width: 650px;
-  font-size: 24px;
+  font-size: 19px;
   line-height: 40px;
   font-weight: 300;
-  padding: 2rem 0;
+  padding: 1.2rem 0;
   color: var(--text);
 }
 .heroContainer .btn {
@@ -28,7 +28,7 @@
   border-radius: 0.3rem;
   cursor: pointer;
   color: var(--text);
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   transition: 0.5s ease-in;
   justify-content: center;
   gap: 1rem;
@@ -52,10 +52,10 @@
   }
 }
 @media screen and (max-width: 468px) {
-    .heroContainer{
-        height: max-content;
-        padding: 5rem 0;
-    }
+  .heroContainer {
+    height: max-content;
+    padding: 5rem 0;
+  }
   .heroContainer .heroHeading {
     font-size: 35px;
     line-height: 50px;

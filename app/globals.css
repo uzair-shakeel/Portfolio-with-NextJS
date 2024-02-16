@@ -28,8 +28,7 @@
   cursor: pointer;
 }
 
-
-.fixedIcon{
+.fixedIcon {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
@@ -39,15 +38,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border:  1px solid var(--primary);
-  transition: .5s ease;
+  border: 1px solid var(--primary);
+  transition: 0.5s ease;
 }
-.fixedIcon svg{
+.fixedIcon svg {
   width: 2rem;
   height: 2rem;
 }
-.fixedIcon:hover{
-  border:  1px solid var(--white);
+.fixedIcon:hover {
+  border: 1px solid var(--white);
 }
 /* -----------------Design  */
 body {
@@ -71,14 +70,14 @@ svg {
 }
 .title {
   font-weight: 800;
-  font-size: 56px;
+  font-size: 50px;
   line-height: 56px;
   margin-bottom: 16px;
   color: var(--white);
 }
 .titleDetails {
   max-width: 800px;
-  font-size: 24px;
+  font-size: 19px;
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
