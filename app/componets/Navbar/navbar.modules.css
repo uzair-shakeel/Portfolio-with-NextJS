@@ -1,0 +1,109 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  max-width: 85%;
+  z-index: 1000;
+}
+
+.logo svg {
+  width: 35px;
+  height: 35px;
+}
+.logo h2 {
+  font-weight: 400;
+  color: var(--white);
+}
+.logo h2 span {
+  font-weight: 700;
+  color: var(--primary);
+}
+.navlist {
+  gap: 3rem;
+}
+.navlist a {
+  color: var(--text);
+  font-size: 1.3rem;
+  transition: 0.3s ease;
+}
+.navlist a:hover {
+  color: var(--white);
+}
+
+.navContact {
+  gap: 2rem;
+}
+.navContact a svg {
+  width: 30px;
+  height: 30px;
+}
+
+.closeNavbar {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.icon {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .navlist{
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+    .nav{
+        position: absolute;
+        top: 0;
+        left: -500%;
+        padding: 2rem;
+        background-color: var(--primary);
+        width: 100%;
+        height: max-content;
+        flex-direction: column;
+        transition: 0.5s ease;
+        z-index: 1001;
+    }
+    .nav .navlist{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        text-align: start;
+    }
+    .nav .navlist a{
+        color: var(--white);
+    }
+    .closeNavbar {
+        display: flex;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+      .icon {
+        display: flex;
+        margin-bottom: .2rem;
+      }
+      .activeNavbar {
+        left: 0;
+      }
+}
+@media screen and (max-width: 468px) {
+    .navContact{
+       gap: .7rem;
+    }
+    .navContact a svg{
+        width: 25px;
+    }
+    .logo svg{
+        width: 25px;
+    }
+    .logo h2{
+        font-size: 16px;
+    }
+}

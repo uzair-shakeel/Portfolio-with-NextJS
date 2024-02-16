@@ -1,0 +1,57 @@
+.technology {
+  margin: auto;
+  margin-bottom: 5rem;
+}
+.technologyContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.techBox {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.techBox svg {
+  color: var(--white);
+  font-size: 4rem;
+}
+.techBox h4 {
+  font-size: 1.8rem;
+  color: var(--white);
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+.techBox p {
+  color: var(--text);
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .technologyContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 468px) {
+  .technologyContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .techBox {
+    background-color: var(--box-bg);
+    padding: 1rem;
+    gap: 0.5rem;
+  }
+  .techBox svg {
+    font-size: 2rem;
+  }
+  .techBox h4 {
+    font-size: 1rem;
+    color: var(--white);
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+  }
+  .techBox p {
+    color: var(--text);
+    font-size: 0.7rem;
+  }
+}

@@ -1,0 +1,84 @@
+.footer{
+    border-top: 1px solid var(--text);
+    margin: auto;
+    padding: 2rem 0;
+}
+.contactdetails {
+    gap: 5rem;
+}
+.contactdetails span{
+    color: var(--text);
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.contactdetails p{
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--white);
+    margin-bottom: 16px;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    left: 0px;
+    cursor: pointer;
+}
+.contactdetails p:hover{
+    left: 1rem;
+}
+
+.socialLinks{
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+.socialLinks span{
+    color: var(--text);
+    font-size: 1.2rem;
+}
+.links{
+    display: flex;
+    gap: 1.5rem;
+}
+.links svg{
+    width: 40px;
+    height: 40px;
+}
+.thanksBox{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.thanksBox span{
+    color: var(--primary);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.thanksBox svg{
+    color: red;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 568px){
+    .contactdetails{
+        display: block;
+    }
+    .contactdetails p{
+        font-size: 15px;
+    }
+    
+    .socialLinks span{
+        font-size: .9rem;
+    }
+    .links{
+        gap: 1rem;
+    }
+    .links svg{
+        width: 25px;
+        height: 25px;
+    }
+    .thanksBox span{
+        font-size: 1rem;
+    }
+}

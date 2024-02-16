@@ -1,0 +1,31 @@
+.aboutContainer {
+  margin: auto;
+  margin-bottom: 5rem;
+}
+.aboutBox {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 2rem;
+}
+
+.aboutBox .box h4{
+    color: var(--white);
+    font-size: 2rem;
+    padding: .5rem 0;
+}
+.aboutBox .box p{
+    color: var(--text);
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 400px){
+    .aboutBox {
+        gap: .5rem;
+      }
+    .aboutBox .box h4{
+        font-size: 1.5rem;
+    }
+    .aboutBox .box p{
+        font-size: .8rem;
+    }
+}
