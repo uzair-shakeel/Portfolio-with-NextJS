@@ -37,7 +37,7 @@ const Technology = () => {
           href="https://coursera.org/verify/TT6AC4RZPUP9"
           target="_blank"
           className="techBox"
-          style={{ height: "auto", width: "250px", overflow: "hidden" }}
+          style={{ height: "auto", width: "full", overflow: "hidden" }}
         >
           <Image
             src={ReactBasics}
@@ -52,7 +52,7 @@ const Technology = () => {
           href="https://coursera.org/verify/TT6AC4RZPUP9"
           target="_blank"
           className="techBox"
-          style={{ height: "auto", width: "250px", overflow: "hidden" }}
+          style={{ height: "auto", width: "full", overflow: "hidden" }}
         >
           <Image
             src={ReactBasics}
@@ -68,7 +68,7 @@ const Technology = () => {
           href="https://coursera.org/verify/GW2YKTDUDWUN"
           target="_blank"
           className="techBox"
-          style={{ height: "auto", width: "250px", overflow: "hidden" }}
+          style={{ height: "auto", width: "full", overflow: "hidden" }}
         >
           <Image
             src={JS}
@@ -84,14 +84,14 @@ const Technology = () => {
           href="https://coursera.org/verify/TG7WYWE98J64"
           target="_blank"
           className="techBox"
-          style={{ height: "auto", width: "250px", overflow: "hidden" }}
+          style={{ height: "auto", width: "full", overflow: "hidden" }}
         >
           <Image
             src={HTMLCSS}
             alt="Slider Image"
             style={{ height: "auto", width: "100%", objectFit: "cover" }}
           />
-          {/* <FaReact /> */}
+
           <h4>HTML & CSS in depth</h4>
           <p>Coursera - META</p>
         </Link>
@@ -100,7 +100,7 @@ const Technology = () => {
           href="https://coursera.org/verify/NL5KTLGYL7G4"
           target="_blank"
           className="techBox"
-          style={{ height: "auto", width: "250px", overflow: "hidden" }}
+          style={{ height: "auto", width: "full", overflow: "hidden" }}
         >
           <Image
             src={VersionControl}
@@ -116,7 +116,7 @@ const Technology = () => {
           href="https://coursera.org/verify/D4JCNBCY82PZ"
           target="_blank"
           className="techBox"
-          style={{ height: "auto", width: "250px", overflow: "hidden" }}
+          style={{ height: "auto", width: "full", overflow: "hidden" }}
         >
           <Image
             src={UIUX}

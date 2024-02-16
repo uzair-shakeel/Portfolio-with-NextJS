@@ -4,8 +4,8 @@
 }
 .technologyContainer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  grid-template-columns: repeat(3, fr);
+  gap: 2rem;
 }
 .techBox {
   display: flex;
