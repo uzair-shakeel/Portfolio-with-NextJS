@@ -9,7 +9,7 @@
 }
 .techBox {
   display: flex;
-  border-radius: 10px;
+  border-radius: 0px;
   flex-direction: column;
   gap: 0.7rem;
 }
@@ -40,6 +40,7 @@
   .techBox {
     background-color: var(--box-bg);
     padding: 1rem;
+    border-radius: 10px;
     gap: 0.5rem;
   }
   .techBox svg {
