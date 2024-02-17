@@ -53,7 +53,7 @@
 }
 @media screen and (max-width: 468px) {
   .heroContainer {
-    height: max-content;
+    height: screen;
     padding: 5rem 0;
   }
   .heroContainer .heroHeading {

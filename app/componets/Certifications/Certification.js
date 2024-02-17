@@ -12,7 +12,7 @@ import Link from "next/link";
 
 const Technology = () => {
   return (
-    <div className="technology section" id="technology">
+    <div className="technology section" id="certifications">
       <div
         data-aos="fade-right"
         data-aos-duration="2000"

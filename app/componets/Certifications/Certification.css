@@ -9,6 +9,7 @@
 }
 .techBox {
   display: flex;
+  border-radius: 10px;
   flex-direction: column;
   gap: 0.7rem;
 }

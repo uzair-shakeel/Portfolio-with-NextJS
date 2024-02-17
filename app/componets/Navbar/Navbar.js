@@ -39,10 +39,11 @@ const Navbar = () => {
 
       <div className={active}>
         <div className="navlist flex">
-          <Link href="#project">Project</Link>
           <Link href="#about">About</Link>
+          <Link href="#certifications">Certifications</Link>
+          <Link href="#technology">Technologies</Link>
           <Link href="#skills">Skills</Link>
-          <Link href="#technology">Technology</Link>
+          <Link href="#project">Projects</Link>
           <div onClick={hideNav} className="closeNavbar">
             <AiFillCloseCircle className="icon" />
           </div>
