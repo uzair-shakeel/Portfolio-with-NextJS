@@ -16,7 +16,9 @@ const Project = () => {
       <div data-aos="fade-right" data-aos-duration="2000">
         <div className="titleAfter"></div>
         <h1 className="title">Projects</h1>
-        <p className="titleDetails">Here are my some Projects</p>
+        <p className="titleDetails">
+          I build many projects for practice. Few of them are listed below.{" "}
+        </p>
       </div>
 
       <div data-aos="fade-up" data-aos-duration="2000" className="project-box">

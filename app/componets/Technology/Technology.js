@@ -19,8 +19,7 @@ const Technology = () => {
         data-aos-duration="2500"
         className="titleDetails"
       >
-        Worked with a lot of different types of Technologies in projects. From
-        Front-End to Back-End
+        Technologies I used to learn to become a Full Stack Web Developer.
       </p>
       <div
         data-aos="fade-up"

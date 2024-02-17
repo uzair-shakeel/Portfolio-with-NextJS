@@ -26,7 +26,7 @@ const Technology = () => {
         data-aos-duration="2500"
         className="titleDetails"
       >
-        Completed my short courses from Coursera
+        Completed my short courses from Coursera.
       </p>
       <div
         data-aos="fade-up"
@@ -124,7 +124,7 @@ const Technology = () => {
             style={{ height: "auto", width: "100%", objectFit: "cover" }}
           />
 
-          <h4>Principles of UI/US</h4>
+          <h4>Principles of UI/UX Design</h4>
           <p>Coursera - META</p>
         </Link>
       </div>

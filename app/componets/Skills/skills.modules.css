@@ -30,8 +30,8 @@
 
 .slider .slide img {
   width: 50px;
-  height: 50px;
-  object-fit: fill;
+  height: auto;
+  object-fit: cover;
 }
 .slider .slide h2 {
   color: var(--white);

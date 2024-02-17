@@ -23,16 +23,16 @@ const About = () => {
       </p>
       <div data-aos="fade-up" data-aos-duration="3000" className="aboutBox">
         <div className="box">
-          <h4>2005 - 2017</h4>
-          <p>Matriculation</p>
+          <h4>2024 - 2020</h4>
+          <p>BSCS</p>
         </div>
         <div className="box">
-          <h4>2017-2019</h4>
+          <h4>2019-2017</h4>
           <p>Intermediate</p>
         </div>
         <div className="box">
-          <h4>2020 - 2024</h4>
-          <p>BSCS</p>
+          <h4>2017 - 2005</h4>
+          <p>Matriculation</p>
         </div>
       </div>
     </div>
