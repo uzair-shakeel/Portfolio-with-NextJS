@@ -7,6 +7,7 @@ import FoodVilla from "../../assets/Food-Villa.png";
 import FoodVillaAdmin from "../../assets/FoodVilla Admin.png";
 import Cafena from "../../assets/Cafena.png";
 import DreamTalk from "../../assets/DreamTalk.png";
+import Netflix from "../../assets/Netflix.png";
 import Plantino from "../../assets/Plantino.png";
 import TripTravels from "../../assets/Trips-Travel.png";
 import TripTravelsAdminPanel from "../../assets/TripsTravelAdmin.png";
@@ -21,7 +22,8 @@ const projectsData = [
     name: "Food Villa",
     image: FoodVilla,
     alt: "Project 04",
-    description: "Indulge in culinary delights with Food Villa...",
+    description:
+      "FoodVilla (User Panel) is a Full Stack Restaurant Web. built with MERN Stack. ",
     link: "https://food-villa-five.vercel.app/",
     category: "Full Stack",
   },
@@ -29,8 +31,27 @@ const projectsData = [
     name: "Food Villa Admin Panel",
     image: FoodVillaAdmin,
     alt: "Project 04",
-    description: "Indulge in culinary delights with Food Villa...",
+    description:
+      "FoodVilla (Admin) is a Full Stack Restaurant Web. built with MERN Stack.",
     link: "https://food-villa-five.vercel.app/",
+    category: "Full Stack",
+  },
+  {
+    name: "Trips Travel",
+    image: TripTravels,
+    alt: "Project 05",
+    link: "https://trips-travel-frontend.vercel.app/",
+    description:
+      "TripsTravel (User Panel) is a Full Stack Travelling web. built with MERN Stack.",
+    category: "Full Stack",
+  },
+  {
+    name: "Trips Travel Admin Panel",
+    image: TripTravelsAdminPanel,
+    alt: "Project 05",
+    link: "https://trips-travel-frontend.vercel.app/",
+    description:
+      "FoodVilla (Admin Panel) is a Full Stack Travelling web. built with MERN Stack.",
     category: "Full Stack",
   },
   {
@@ -39,23 +60,16 @@ const projectsData = [
     alt: "Project 06",
     link: "https://doctor-appointment-ten.vercel.app/",
     description:
-      "Built on the MERN stack, our platform enables users to book appointments...",
+      "Medicare (User Panel) is a Full Stack Dr. Appointment web. built with MERN Stack.",
     category: "Full Stack",
   },
   {
-    name: "Trips Travel",
-    image: TripTravels,
-    alt: "Project 05",
-    link: "https://trips-travel-frontend.vercel.app/",
-    description: "A MERN-based travel booking platform...",
-    category: "Full Stack",
-  },
-  {
-    name: "Trips Travel Admin Panel",
-    image: TripTravelsAdminPanel,
-    alt: "Project 05",
-    link: "https://trips-travel-frontend.vercel.app/",
-    description: "A MERN-based travel booking platform...",
+    name: "Netflix",
+    image: Netflix,
+    alt: "netflix",
+    link: "https://netflix-reactt.netlify.app/",
+    description:
+      "Netflix is a Full Stack Entertainment Web. built with React JS, Tailwind CSS & Firebase.",
     category: "Full Stack",
   },
   {
@@ -64,7 +78,7 @@ const projectsData = [
     alt: "project 01",
     link: "https://rent-up-phi.vercel.app/",
     description:
-      "Discover your next adventure with our Travel & Stay website...",
+      "RentUp is a Frontend Rent Service web. built with React JS and Tailwind CSS.",
     category: "Frontend",
   },
   {
@@ -73,7 +87,7 @@ const projectsData = [
     alt: "project 03",
     link: "https://dot-alpha.vercel.app/",
     description:
-      "Welcome to Hotal Rent-Up, your destination for hassle-free hotel rentals...",
+      "Dot is a Frontend Hotel Service web. built with React JS and SASS.",
     category: "Frontend",
   },
   {
@@ -82,7 +96,7 @@ const projectsData = [
     alt: "project 02",
     link: "https://food-pearl.vercel.app/",
     description:
-      "Experience the convenience of online food ordering with our HTML, CSS, and JavaScript...",
+      "Food is another Frontend Food Service web. built with HTML, CSS & JS.",
     category: "Frontend",
   },
   {
@@ -91,7 +105,7 @@ const projectsData = [
     alt: "Retail Me Not",
     link: "https://retail-me-not.vercel.app/",
     description:
-      "Experience the convenience of online food ordering with our HTML, CSS, and JavaScript...",
+      "RetailMeNot is a Frontend Coupon web. built with React JS and CSS.",
     category: "Frontend",
   },
   {
@@ -100,7 +114,7 @@ const projectsData = [
     alt: "Cafena",
     link: "https://cafena-khaki.vercel.app/",
     description:
-      "Experience the convenience of online food ordering with our HTML, CSS, and JavaScript...",
+      "Cafena is a Frontend Coffee Shop web. built with HTML, CSS & JS.",
     category: "Frontend",
   },
   {
@@ -108,8 +122,7 @@ const projectsData = [
     image: Plantino,
     alt: "Plantino",
     link: "https://plantino.vercel.app/",
-    description:
-      "Experience the convenience of online food ordering with our HTML, CSS, and JavaScript...",
+    description: "Plantino is a Plant Store web. built with HTML, CSS & JS.",
     category: "Frontend",
   },
   {
@@ -117,8 +130,7 @@ const projectsData = [
     image: DreamTalk,
     alt: "Dream Talk",
     link: "https://dream-talk.vercel.app/",
-    description:
-      "Experience the convenience of online food ordering with our HTML, CSS, and JavaScript...",
+    description: "DreamTalk is a Basic Landing Page built with React JS & CSS.",
     category: "Frontend",
   },
 ];
