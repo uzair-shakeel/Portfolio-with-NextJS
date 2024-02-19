@@ -40,7 +40,7 @@ const projectsData = [
     name: "Trips Travel",
     image: TripTravels,
     alt: "Project 05",
-    link: "https://trips-travel-frontend.vercel.app/",
+    link: "https://trips-travel.vercel.app/home",
     description:
       "TripsTravel (User Panel) is a Full Stack Travelling web. built with MERN Stack.",
     category: "Full Stack",
@@ -49,7 +49,7 @@ const projectsData = [
     name: "Trips Travel Admin Panel",
     image: TripTravelsAdminPanel,
     alt: "Project 05",
-    link: "https://trips-travel-frontend.vercel.app/",
+    link: "https://trips-travel.vercel.app/home",
     description:
       "FoodVilla (Admin Panel) is a Full Stack Travelling web. built with MERN Stack.",
     category: "Full Stack",
