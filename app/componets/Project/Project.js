@@ -24,7 +24,7 @@ const projectsData = [
     alt: "Project 04",
     description:
       "FoodVilla (User Panel) is a Full Stack Restaurant Web. built with MERN Stack. ",
-    link: "https://food-villa-five.vercel.app/",
+    link: "https://food-villa-rho.vercel.app/",
     category: "Full Stack",
   },
   {
@@ -33,7 +33,7 @@ const projectsData = [
     alt: "Project 04",
     description:
       "FoodVilla (Admin) is a Full Stack Restaurant Web. built with MERN Stack.",
-    link: "https://food-villa-five.vercel.app/",
+    link: "https://food-villa-rho.vercel.app/",
     category: "Full Stack",
   },
   {
