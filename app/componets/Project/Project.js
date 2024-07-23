@@ -16,6 +16,16 @@ import Dot from "../../assets/Dot.webp";
 import Food from "../../assets/Food.webp";
 import RentUp from "../../assets/RentUp.webp";
 import Medicare from "../../assets/DrAppointment.png";
+import PizzaUNO from "../../assets/Pizza-UNO.jpg";
+import Bylinka from "../../assets/bylinka.jpg";
+import Lider from "../../assets/lider.jpg";
+import Magnin from "../../assets/magnin.jpg";
+import Disease from "../../assets/disease.jpg";
+import TSI from "../../assets/tsi.jpg";
+import Vetjobs from "../../assets/vetjobs.jpg";
+import Canna from "../../assets/canna.jpg";
+import LinkUP from "../../assets/linkup.jpg";
+import Inquiry from "../../assets/inquiry.jpg";
 
 const projectsData = [
   {
@@ -23,18 +33,9 @@ const projectsData = [
     image: FoodVilla,
     alt: "Project 04",
     description:
-      "FoodVilla (User Panel) is a Full Stack Restaurant Web. built with MERN Stack. ",
+      "Food Villa, a dynamic restaurant website built with the MERN stack, features user and admin panels with secure authentication. Customers can browse menus, place orders, and manage accounts, while admins manage orders and update menus.",
     link: "https://food-villa-rho.vercel.app/",
-    category: "Full Stack",
-  },
-  {
-    name: "Food Villa Admin Panel",
-    image: FoodVillaAdmin,
-    alt: "Project 04",
-    description:
-      "FoodVilla (Admin) is a Full Stack Restaurant Web. built with MERN Stack.",
-    link: "https://food-villa-rho.vercel.app/",
-    category: "Full Stack",
+    category: "multi",
   },
   {
     name: "Trips Travel",
@@ -42,17 +43,71 @@ const projectsData = [
     alt: "Project 05",
     link: "https://trips-travel.vercel.app/home",
     description:
-      "TripsTravel (User Panel) is a Full Stack Travelling web. built with MERN Stack.",
-    category: "Full Stack",
+      "Trips Travel, built with the MERN stack, features secure user and admin panels. Users can browse trips, book itineraries, and leave reviews, while admins manage bookings and trips.",
+    category: "multi",
   },
   {
-    name: "Trips Travel Admin Panel",
-    image: TripTravelsAdminPanel,
+    name: "Pizza UNO",
+    image: PizzaUNO,
     alt: "Project 05",
-    link: "https://trips-travel.vercel.app/home",
+    link: "https://pizza-uno-frontend.vercel.app",
     description:
-      "FoodVilla (Admin Panel) is a Full Stack Travelling web. built with MERN Stack.",
-    category: "Full Stack",
+      "Pizza-UNO, built with the MERN stack, provides seamless online pizza ordering in the UK with customization, secure payments, delivery tracking, and admin management.",
+    category: "multi",
+  },
+  {
+    name: "Inquiry Management System",
+    image: Inquiry,
+    alt: "Project 05",
+    link: "https://github.com/uzair-shakeel/Inquiry-Management-System",
+    description:
+      "The Inquiry Management System efficiently handles student inquiries by streamlining the process for quick and accurate responses, featuring an intuitive interface and robust backend processing.",
+    category: "multi",
+  },
+  {
+    name: "LinkUP",
+    image: LinkUP,
+    alt: "Project 05",
+    link: "https://github.com/uzair-shakeel/Link-Up",
+    description:
+      "Link Up is a fully functional social media platform where users can post content, apply for jobs, interact with others, and enjoy real-time chat, customizable profiles, and theme options.",
+    category: "user",
+  },
+  {
+    name: "Bylinka Tannery",
+    image: Bylinka,
+    alt: "Project 05",
+    link: "https://sheep-skin.vercel.app",
+    description:
+      "Bylinka Tannery is a premier platform for purchasing high-quality animal skins, including sheep, deer, reindeer, and medical-grade options, with a focus on sustainability and exceptional user experience.",
+    category: "user",
+  },
+  {
+    name: "Liderpodhale",
+    image: Lider,
+    alt: "Project 05",
+    link: "https://lidher.vercel.app",
+    description:
+      "Liderpodhale, built with Next.js and Next UI, is an insurance website offering a user-friendly experience in Ukrainian and Polish, featuring comprehensive insurance information and services through an intuitive interface.",
+    category: "user",
+  },
+  {
+    name: "Dr. Magnin",
+    image: Magnin,
+    alt: "Project 05",
+    link: "https://dr-magnin.vercel.app",
+    description:
+      "The portfolio for Dr. Magnin showcases her distinguished work and achievements, offering a comprehensive overview of her projects, research, and publications.",
+    category: "user",
+  },
+  {
+    name: "Heart Disease Prediction system",
+    image: Disease,
+    alt: "Project 05",
+    link: "https://disease-prediction-system-hazel.vercel.app/welcome",
+    description:
+      "Developed a Heart Disease Prediction system with Python and Pandas for backend processing and React and Tailwind for a sleek frontend, using advanced data analysis to predict heart disease risk with an intuitive user interface.",
+    category: "user",
   },
   {
     name: "Medicare",
@@ -60,17 +115,35 @@ const projectsData = [
     alt: "Project 06",
     link: "https://doctor-appointment-ten.vercel.app/",
     description:
-      "Medicare (User Panel) is a Full Stack Dr. Appointment web. built with MERN Stack.",
-    category: "Full Stack",
+      "A Doctor Appointment website with a sleek, intuitive interface for booking medical appointments, allowing patients to browse doctors, view schedules, and book appointments with a focus on accessibility and convenience.",
+    category: "frontend",
   },
   {
-    name: "Netflix",
-    image: Netflix,
-    alt: "netflix",
-    link: "https://netflix-reactt.netlify.app/",
+    name: "VetJobs",
+    image: Vetjobs,
+    alt: "Project 06",
+    link: "https://vetjobs.vercel.app",
     description:
-      "Netflix is a Full Stack Entertainment Web. built with React JS, Tailwind CSS & Firebase.",
-    category: "Full Stack",
+      "VetJobs Design, a pet care website that connects pet owners with care providers through a user-friendly interface, emphasizing ease of use and accessibility for a seamless experience.",
+    category: "frontend",
+  },
+  {
+    name: "Tu Sonrisa Ideal",
+    image: TSI,
+    alt: "Project 06",
+    link: "https://tusonrisaideal.vercel.app",
+    description:
+      "Tu Sonrisa Ideal is a static, frontend-only dental website built with Next.js and Tailwind CSS, featuring Home, Clinic, Dental Services, and About Us pages for a clean, professional presentation of the clinic's information and services.",
+    category: "frontend",
+  },
+  {
+    name: "Cannamiami",
+    image: Canna,
+    alt: "Project 06",
+    link: "https://www.cannamiami.net",
+    description:
+      "A static, frontend-only landing page for Cannamiami, featuring a clean and modern layout, built with Next.js and Tailwind CSS.",
+    category: "frontend",
   },
   {
     name: "RentUp",
@@ -79,7 +152,7 @@ const projectsData = [
     link: "https://rent-up-phi.vercel.app/",
     description:
       "RentUp is a Frontend Rent Service web. built with React JS and Tailwind CSS.",
-    category: "Frontend",
+    category: "frontend",
   },
   {
     name: "Dot",
@@ -88,7 +161,7 @@ const projectsData = [
     link: "https://dot-alpha.vercel.app/",
     description:
       "Dot is a Frontend Hotel Service web. built with React JS and SASS.",
-    category: "Frontend",
+    category: "frontend",
   },
   {
     name: "Food",
@@ -97,7 +170,7 @@ const projectsData = [
     link: "https://food-pearl.vercel.app/",
     description:
       "Food is another Frontend Food Service web. built with HTML, CSS & JS.",
-    category: "Frontend",
+    category: "frontend",
   },
   {
     name: "Retail Me Not",
@@ -106,7 +179,7 @@ const projectsData = [
     link: "https://retail-me-not.vercel.app/",
     description:
       "RetailMeNot is a Frontend Coupon web. built with React JS and CSS.",
-    category: "Frontend",
+    category: "frontend",
   },
   {
     name: "Cafena",
@@ -115,7 +188,7 @@ const projectsData = [
     link: "https://cafena-khaki.vercel.app/",
     description:
       "Cafena is a Frontend Coffee Shop web. built with HTML, CSS & JS.",
-    category: "Frontend",
+    category: "frontend",
   },
   {
     name: "Plantino",
@@ -123,7 +196,7 @@ const projectsData = [
     alt: "Plantino",
     link: "https://plantino.vercel.app/",
     description: "Plantino is a Plant Store web. built with HTML, CSS & JS.",
-    category: "Frontend",
+    category: "frontend",
   },
   {
     name: "Dream Talk",
@@ -131,7 +204,7 @@ const projectsData = [
     alt: "Dream Talk",
     link: "https://dream-talk.vercel.app/",
     description: "DreamTalk is a Basic Landing Page built with React JS & CSS.",
-    category: "Frontend",
+    category: "frontend",
   },
 ];
 
@@ -155,29 +228,36 @@ const Project = () => {
       <div data-aos="fade-right" data-aos-duration="2000">
         <div className="titleAfter"></div>
         <h1 className="title">Projects</h1>
+
         <p className="titleDetails">
-          I built many projects for practice. Few of them are listed below.{" "}
+          I have built many projects. Few of them are listed below.{" "}
         </p>
       </div>
 
       <div className="btngroup">
         <button
           className={activeTab === "All" ? "btnactive" : "btn"}
-          onClick={() => handleTabClick("All")}
+          onClick={() => handleTabClick("live")}
         >
           All
         </button>
         <button
-          className={activeTab === "Full Stack" ? "btnactive" : "btn"}
-          onClick={() => handleTabClick("Full Stack")}
+          className={activeTab === "multi" ? "btnactive" : "btn"}
+          onClick={() => handleTabClick("multi")}
         >
-          Full Stack
+          (Multi-Panels) Websites
         </button>
         <button
-          className={activeTab === "Frontend" ? "btnactive" : "btn"}
-          onClick={() => handleTabClick("Frontend")}
+          className={activeTab === "user" ? "btnactive" : "btn"}
+          onClick={() => handleTabClick("user")}
         >
-          Frontend
+          User Panel Website
+        </button>
+        <button
+          className={activeTab === "frontend" ? "btnactive" : "btn"}
+          onClick={() => handleTabClick("frontend")}
+        >
+          Frontend Designs
         </button>
       </div>
 

@@ -61,10 +61,6 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div className="thanksBox flex">
-        <span>Thanks</span>
-        <AiFillHeart />
-      </div>
     </div>
   );
 };

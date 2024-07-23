@@ -8,7 +8,7 @@ import Image3 from "../../assets/js.webp";
 import express from "../../assets/express.png";
 import node from "../../assets/node.png";
 import Image5 from "../../assets/react.webp";
-import Image6 from "../../assets/nextjs.webp";
+import next from "../../assets/next.png";
 import Image7 from "../../assets/tailwind.webp";
 import mongo from "../../assets/mongodb.png";
 import Image from "next/image";
@@ -37,30 +37,9 @@ const Skills = () => {
         className="sliderTrack flex"
       >
         <div className="slide">
-          <Image src={Image1} alt="Slider Image" />
+          <Image src={next} alt="Slider Image" />
           <div>
-            <h2>HTML5</h2>
-            <span>Frontend</span>
-          </div>
-        </div>
-        <div className="slide">
-          <Image src={Image2} alt="Slider Image" />
-          <div>
-            <h2>CSS3</h2>
-            <span>Frontend</span>
-          </div>
-        </div>
-        <div className="slide">
-          <Image src={Image3} alt="Slider Image" />
-          <div>
-            <h2>JavaScript</h2>
-            <span>Frontend</span>
-          </div>
-        </div>
-        <div className="slide">
-          <Image src={Image7} alt="Slider Image" />
-          <div>
-            <h2>Tailwind CSS</h2>
+            <h2>Next Js</h2>
             <span>Frontend</span>
           </div>
         </div>
@@ -83,6 +62,14 @@ const Skills = () => {
           <div>
             <h2>Express js</h2>
             <span>Backend</span>
+          </div>
+        </div>
+
+        <div className="slide">
+          <Image src={Image3} alt="Slider Image" />
+          <div>
+            <h2>JavaScript</h2>
+            <span>Frontend</span>
           </div>
         </div>
         <div className="slide">

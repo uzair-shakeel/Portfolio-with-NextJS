@@ -31,7 +31,7 @@ const Technology = () => {
           <h4>Front-End</h4>
           <p>
             Experience with <br />
-            React JS, JavaScript, CSS, <br /> Tailwind CSS & HTML
+            Next JS, React JS, JavaScript, CSS, <br /> Tailwind CSS & HTML
           </p>
         </div>
         <div className="techBox">

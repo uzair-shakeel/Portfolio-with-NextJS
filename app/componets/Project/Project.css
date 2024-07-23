@@ -4,11 +4,12 @@
 }
 .project-box {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 .project {
   background: var(--box-bg);
+  backdrop-filter: blur(20px);
   border-radius: 0.5rem;
   overflow: hidden;
 }
@@ -17,7 +18,7 @@
   transition: 0.3s ease;
 }
 .project .image {
-  height: 140px;
+  height: 240px;
   width: 100%;
   overflow: hidden;
 }
