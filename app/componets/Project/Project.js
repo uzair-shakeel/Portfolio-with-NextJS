@@ -26,8 +26,18 @@ import Vetjobs from "../../assets/vetjobs.jpg";
 import Canna from "../../assets/canna.jpg";
 import LinkUP from "../../assets/linkup.jpg";
 import Inquiry from "../../assets/inquiry.jpg";
+import Amintim from "../../assets/amintim.png";
 
 const projectsData = [
+  {
+    name: "Amintim",
+    image: Amintim,
+    alt: "Project 01",
+    description:
+      "Amintim is a heartfelt platform where users can purchase SoulStars and create lasting profiles for deceased loved ones, accessible via personalized QR codes. Capture cherished memories with photos, videos, and tributes from friends and family. Built with React, Node, and MongoDB.",
+    link: "https://Amintim.vercel.app",
+    category: "multi",
+  },
   {
     name: "Food Villa",
     image: FoodVilla,
