@@ -7,6 +7,7 @@ import Hero from "./componets/Hero/Hero";
 import Navbar from "./componets/Navbar/Navbar";
 import Project from "./componets/Project/Project";
 import Skills from "./componets/Skills/Skills";
+import Experience from "./componets/Experience/Experience";
 import Technology from "./componets/Technology/Technology";
 import Certification from "./componets/Certifications/Certification";
 import styles from "./page.module.css";
@@ -27,6 +28,7 @@ export default function Home() {
       <Certification />
       <Technology />
       <Skills />
+      <Experience />
       <Project />
       <Footer />
       <Icon />
