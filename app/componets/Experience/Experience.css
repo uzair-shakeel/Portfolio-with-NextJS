@@ -4,15 +4,28 @@
 }
 .aboutBox {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-template-columns: 1fr;
   gap: 5rem;
+}
+
+.Etitle {
+  padding-bottom: 3rem;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 56px;
+  color: var(--white);
+}
+
+@media (min-width: 768px) {
+  .aboutBox {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .aboutBox .box h4 {
   color: var(--white);
   font-size: 1.2rem;
   padding: 0.5rem 0;
-  padding-top: 3rem;
 }
 .aboutBox .box p {
   color: var(--text);

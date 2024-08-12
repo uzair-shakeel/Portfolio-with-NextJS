@@ -7,7 +7,7 @@ const About = () => {
         data-aos-duration="2000"
         className="titleAfter"
       ></div>
-      <h1 data-aos="fade-right" data-aos-duration="2500" className="title">
+      <h1 data-aos="fade-right" data-aos-duration="2500" className="Etitle">
         Experience
       </h1>
 
